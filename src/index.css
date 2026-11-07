@@ -1,0 +1,42 @@
+/* cores */
+:root {
+  --rosa: #e0559a;
+  --rosa-escuro: #c23d80;
+  --rosa-claro: #fde8f2;
+  --fundo: #fff7fb;
+  --texto: #3a2a33;
+  --cinza: #8a7682;
+  --borda: #f3d3e3;
+}
+
+/* estilo geral da página */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--fundo);
+  color: var(--texto);
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+button,
+input {
+  font-size: 15px;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
